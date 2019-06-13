@@ -6,8 +6,8 @@ if [ $DRUPAL_VERSION ]
 then 
     echo "Start with Drupal version ${DRUPAL_VERSION}"
 else
-    echo "Drupal version is not defined. Set the default version to 8.6.12"
-    DRUPAL_VERSION='8.6.12'
+    echo "Drupal version is not defined. Set the default version to 8.7.3"
+    DRUPAL_VERSION='8.7.3'
 fi    
 
 mkdir drupal/web
